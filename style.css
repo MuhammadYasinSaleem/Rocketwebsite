@@ -1,0 +1,285 @@
+body{
+    margin: 0;
+    background-color: white;
+}
+#nav{
+    padding: 30px;
+}
+.container{
+    display: flex;
+    margin: 0px 20px;
+    padding: 0px 10px;
+    flex-basis: 20%;
+    flex-wrap: wrap;
+    align-items: center;
+    
+}
+.box{
+    flex-basis: 55%;
+   margin: 0px 0px 0px 140px;
+   
+}
+ul{
+    list-style: none;
+    align-items: center;
+}
+li{
+float:left;
+padding: 10px 30px 10px 30px;
+}
+.image{
+    width:100% ;
+     height : 700px;
+     background-image: linear-gradient(180deg,rgba(0,0,0,0.6)0%,rgba(0,0,0,0.8)100%),
+    url(images/spacex-OHOU-5UVIYQ-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+   
+}
+
+.inner{
+    width: 60%;
+    height:300px;
+    content: ' ';
+    position: absolute;
+    color: white;
+    top: 240px;
+left: 100px;
+
+}
+#rocket{
+    display: inline;
+    font-size: 60px;
+}
+#small{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    display: inline-block;
+
+}
+#contact{
+    padding: 10px 25px;
+    background-color: white;
+    border: 2px solid azure;
+}
+#contact:hover{
+    background-color:beige;
+}
+#text{
+    text-align: center;
+    font-size: 30px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.imagesection{
+    
+width: 900px;
+height: 500px;
+box-sizing: border-box;
+margin-left: 100px;
+margin-right: 17.5px;
+display: flex;
+flex-wrap: wrap;
+
+}
+.toy{
+    border: 1px solid rgba(0,0,0,0.4);
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+    width:400px;
+}
+
+.toyimage,.toyimage img{
+    width: 400px;
+    height: 300px;
+}
+.secondtoytext,.toytext{
+height: 177px;
+width: 400px;
+box-sizing: border-box;
+padding: 20px;
+}
+.nottoy{
+    text-align: center;
+    font-weight:bold;
+}
+.p1{
+    text-align: center;
+
+}
+.p2{
+    text-align: center;
+    color: blueviolet;
+    font-size: 15px;
+}
+.secondtoy{
+    
+    border: 1px solid rgba(0,0,0,0.4);
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+    width:400px;
+    
+}
+.secondtoyimage,.secondtoyimage img{
+    width:400px;
+    height: 300px;
+}
+#self{
+    
+    width: 900px;
+    height: 500px;
+    box-sizing: border-box;
+    margin-top: 72px;
+    margin-bottom: 72px;
+    margin-left: 100px;
+    padding: 0px 17.5px;
+}
+#landing{
+    
+    width: 600px;
+    height: 400px;
+    position: relative;
+}
+#landing img{
+    width: 600px;
+    height: 400px;
+}
+#selflanding{
+    position: absolute;
+    width: 400px;
+    height: 250px;
+    background-color: black;
+    top: 250px;
+    left: 500px;
+    padding: 25px;
+    box-sizing: border-box;
+    color: white;
+}
+#selflanding p,#cleanlanding p{
+    font-size: 20px;
+}
+.moredetails{
+    padding: 10px 25px;
+    background-color: white;
+    border: 2px solid azure;
+    width: 200px;
+    font-weight: bold;
+}
+.moredetails:hover{
+    background-color:antiquewhite;
+}
+#clean{
+    
+    width: 900px;
+    height: 500px;
+    box-sizing: border-box;
+    margin-top: 72px;
+    margin-bottom: 72px;
+    margin-left: 100px;
+    padding: 0px 17.5px;
+}
+#cleanrocket{
+    padding-left: 300px;
+    
+    width: 600px;
+    height: 400px;
+    position: relative;
+}
+#cleanrocket img{
+    width: 600px;
+    height: 400px;
+}
+#cleanlanding{
+    position: absolute;
+    width: 400px;
+    height: 250px;
+    background-color: black;
+    top: 250px;
+    left: 0px;
+    padding: 25px;
+    box-sizing: border-box;
+    color: white;
+}
+#gas{
+    position: absolute;
+    width: 400px;
+    height: 250px;
+    background-color: black;
+    top: 250px;
+    left: 500px;
+    padding: 25px;
+    box-sizing: border-box;
+    color: white;
+}
+#p3{
+    text-align: center;
+    font-size: 25px;
+}
+#b1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#c1{
+    color: white;
+    background-color: #814cbf;
+    padding: 10px 30px;
+}
+#blinded{
+    margin-top: 60px;
+    text-align: center;
+    font-style: italic;
+    font-weight: 900;
+    font-size: 20px;
+    font-family: sans-serif;
+    
+}
+#p4{
+    text-align: center;
+    font-weight: 550;
+}
+#secondlast{
+    margin-top: 100px;
+    height: 250px;
+    width: 100%;
+    background-color: #814cbf;
+    color: white;
+    padding: 30px 60px;
+    box-sizing: border-box;
+}
+#p5{
+    font-size: 30px;
+    font-weight: 900;
+}
+#p6{
+    font-size: 20px;
+}
+#b2{
+    float: right;
+    padding: 10px 35px;
+    background-color: white;
+}
+#last{
+    height: 250px;
+    width: 100%;
+    background-color:black;
+    color: white;
+    padding: 30px 60px;
+    box-sizing: border-box;
+}
+#d{
+    margin: 10px;
+    display: flex;
+}
+.d1{
+    height: 150px;
+    width: 230px;
+    padding-left: 20px;
+}
+#twitter,#youtube{
+    height: 15px;
+    width: 30px;
+}
